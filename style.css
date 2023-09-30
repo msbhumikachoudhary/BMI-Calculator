@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Inter";
+  background: rgb(34, 193, 195);
+  height: 100px;
+}
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.bmi {
+  width: 350px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 200;
+}
+.text {
+  text-align: center;
+}
+#weight,
+#height {
+  font-weight: 200;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 200px;
+  height: 35px;
+}
+#result {
+  color: #2f00ff;
+}
+#btn {
+  margin-top: 10px;
+  border: none;
+  color: #000;
+  background: lightblue;
+  width: 150px;
+  padding: 10px;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#btn:hover {
+  transform: scale(1.01);
+  transition: 0.5s;
+  background: rgb(34, 193, 195);
+}
+
+.chart {
+  width: auto;
+  padding: 20px;
+  text-align: center;
+}
+.chart table {
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+.chart th {
+  font-weight: bold;
+  border-bottom: 1px solid #cecece;
+}
+.chart td,th {
+  padding: 10px;
+}
+
+.footer {
+  margin-top: 50px;
+  font-weight: lighter;
+  font-size: 12px;
+  color: #fff;
+}
